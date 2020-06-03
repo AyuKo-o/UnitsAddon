@@ -1,0 +1,29 @@
+name: Usine à Liches
+description: Fabrique des Liches
+type: UnitFactory
+unitType: lich
+size: 3
+produceTime: 500
+consumes: {
+  power: 1.0
+  items: {
+    items: [
+      silicon/100
+      titanium/200
+      surge-alloy/50
+      lich-missile-launcher-part/2
+      coal/5
+
+    ]
+  }
+}
+category: units
+research: lich-factory
+requirements: [
+  silicon/110
+  titanium/250
+  thorium/150
+  surge-alloy/30
+  plastanium/160
+]
+

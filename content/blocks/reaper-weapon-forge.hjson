@@ -1,0 +1,39 @@
+type: GenericSmelter
+name: Usine d'arme à Faucheur
+description: Fusionne du thorium et de l'alliage superchargé pour faire des balles tirant à la même vitesse qu'un Spectre sur une longue distance
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 320
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      silicon/2
+      titanium/2
+      thorium/10
+      surge-alloy/10
+      lead/3
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 2
+  }
+}
+requirements: [
+  titanium/50
+  thorium/80
+  silicon/60
+  copper/50
+  surge-alloy/100
+  lead/60
+]
+category: crafting
+research: reaper-weapon-forge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: reaper-weapon-part/1

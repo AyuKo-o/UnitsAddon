@@ -1,0 +1,38 @@
+type: GenericSmelter
+name: Usine d'arme à Eradicateur
+description: Fusionne le thorium et le plomb pour donner une arme équivalente au Spectre tirant sur une longue distance
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 320
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      silicon/2
+      titanium/2
+      thorium/10
+      lead/10
+      surge-alloy/2
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 2
+  }
+}
+requirements: [
+  titanium/50
+  thorium/80
+  silicon/60
+  copper/50
+  surge-alloy/50
+]
+category: crafting
+research: eradicator-gun-forge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: eradicator-gun-part/1

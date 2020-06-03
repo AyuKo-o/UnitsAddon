@@ -1,0 +1,28 @@
+name: Usine à Soldat du Chaos
+description: Fabrique des Soldats du Chaos 
+type: UnitFactory
+unitType: chaos-array
+size: 3
+produceTime: 500
+consumes: {
+  power: 1.0
+  items: {
+    items: [
+      silicon/100
+      titanium/200
+      surge-alloy/50
+      chaos-gun-part/2
+      thorium/20
+    ]
+  }
+}
+category: units
+research: chaos-array-factory
+requirements: [
+  silicon/110
+  titanium/250
+  thorium/150
+  surge-alloy/30
+  plastanium/100
+]
+

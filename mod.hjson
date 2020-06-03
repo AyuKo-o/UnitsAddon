@@ -1,0 +1,6 @@
+name: "UnitsAddon"
+displayName: "[cyan]Units [blue]Addon"
+author: "[green]AyuKo_o"
+description: "Un mod rajoutant des craft pour toute les unités du jeu"
+version: "0.5"
+minGameVersion: "104"

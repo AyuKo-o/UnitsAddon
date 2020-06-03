@@ -1,0 +1,39 @@
+type: GenericSmelter
+name: Usine de lance missile à Liche
+description: Fusionne des matériaux aimantés permettant de ciblé l'ennemi pendant la trajectoire du missile
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 320
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      silicon/2
+      titanium/2
+      thorium/3
+      plastanium/10
+      scrap/5
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 2
+  }
+}
+requirements: [
+  titanium/50
+  thorium/80
+  silicon/60
+  copper/50
+  lead/30
+  surge-alloy/20
+]
+category: crafting
+research: lich-missile-launcher-forge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: lich-missile-launcher-part/1

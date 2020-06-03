@@ -1,0 +1,30 @@
+name: Usine à Erupteurs
+description: Fabrique des Erupteurs
+type: UnitFactory
+unitType: eruptor
+size: 3
+produceTime: 500
+consumes: {
+  power: 1.0
+  items: {
+    items: [
+      silicon/100
+      titanium/200
+      surge-alloy/50
+      pyratite/10
+      coal/5
+      eruptor-gun-part/2
+
+    ]
+  }
+}
+category: units
+research: eruptor-factory
+requirements: [
+  silicon/110
+  titanium/250
+  thorium/150
+  surge-alloy/30
+  plastanium/20
+]
+
