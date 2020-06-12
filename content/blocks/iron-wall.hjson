@@ -1,0 +1,9 @@
+name: Iron Wall
+description: A wall made of Iron , a little bit better than titanium wall
+health: 500
+size: 1
+requirements: [
+  Iron/6
+]
+category: defense
+research: titanium-wall
