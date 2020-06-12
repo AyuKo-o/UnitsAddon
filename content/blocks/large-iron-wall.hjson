@@ -1,4 +1,5 @@
 name: Iron Wall
+type: Wall
 description: A wall made of Iron , a little bit better than titanium wall
 health: 2000
 size: 2
