@@ -1,9 +1,9 @@
-name: Usine à Faucheurs
-description: Fabrique des Faucheurs
+name: Reaper Factory
+description: Makes Reaper
 type: UnitFactory
 unitType: reaper
 size: 4
-produceTime: 500
+produceTime: 700
 consumes: {
   power: 1.0
   items: {
@@ -13,16 +13,18 @@ consumes: {
       surge-alloy/50
       plastanium/20
       reaper-weapon-part/3
+      advanced-circuit-board-mk2/10
     ]
   }
 }
 category: units
-research: reaper-factory
+research: lich-factory
 requirements: [
   silicon/110
   titanium/250
   thorium/150
   surge-alloy/30
   plastanium/250
+  advanced-circuit-board-mk2/60
 ]
 

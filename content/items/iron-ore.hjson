@@ -1,0 +1,6 @@
+type: resource
+name: "Iron Ore"
+description: Raw iron ore, can be turned into iron
+hardness: 2
+cost: 2.5
+color: eacaa5

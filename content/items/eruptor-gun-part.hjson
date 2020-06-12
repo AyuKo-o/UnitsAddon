@@ -1,5 +1,5 @@
-type: material
+type: resource
 name: Eruptor Gun Part
-description: Le Cannon de l'Erupteur
+description: Eruptor's Gun
 cost: 2.5
-color: ffffff
+color: ea5d20

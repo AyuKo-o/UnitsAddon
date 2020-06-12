@@ -1,0 +1,5 @@
+type: resource
+name: "Surge Powder"
+description: Dust obtained from Surge Alloy
+cost: 2.5
+color: fff86a

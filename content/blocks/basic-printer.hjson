@@ -1,0 +1,31 @@
+type: GenericSmelter
+name: "[green]Basic [white]Printer"
+description: "A Basic Printer that can make [green]Basic [yellow]Circuit Board"
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 100
+updateEffect: smeltsmoke
+consumes: {
+  power: 2.0
+  items: {
+    items: [
+      iron/5
+      conductive-iron/3
+      silicon/3
+      metaglass/1
+    ]
+  }
+}
+requirements: [
+  copper/30
+  lead/20
+  graphite/10
+  silicon/20
+  plastanium/10
+]
+category: crafting
+research: iron-furnace
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: basic-circuit-board/1

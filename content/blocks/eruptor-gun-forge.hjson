@@ -1,7 +1,7 @@
 type: GenericSmelter
-name: Usine d'arme à Erupteur
-description: Fusionne des métaux très résistant à la chaleur pouvant stocker des liquides en fusion
-liquidCapacity: 50
+name: Eruptor's Gun Factory
+description: Merges insulating metals to make a weapon that shoot very hot liquids
+liquidCapacity: 1000
 size: 3
 hasPower: true
 hasLiquids: true
@@ -9,7 +9,7 @@ hasItems: true
 craftTime: 320
 updateEffect: smeltsmoke
 consumes: {
-  power: 0.7
+  power: 2.3
   items: {
     items: [
       silicon/2
@@ -17,6 +17,7 @@ consumes: {
       thorium/1
       metaglass/10
       plastanium/5
+      basic-circuit-board/5
     ]
   }
   liquid: {
@@ -30,9 +31,10 @@ requirements: [
   silicon/60
   copper/50
   surge-alloy/10
+  basic-circuit-board/40
 ]
 category: crafting
-research: eruptor-gun-forge
+research: alloy-smelter
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: eruptor-gun-part/1

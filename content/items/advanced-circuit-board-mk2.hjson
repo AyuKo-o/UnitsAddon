@@ -1,0 +1,5 @@
+type: material
+name: "[purple]Advanced [pink]Circuit Board [red]MK[orange]II"
+description: An upgrade of the advanced circuit , used to make better factory and units
+cost: 2.5
+color: 9800ff

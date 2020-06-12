@@ -1,5 +1,5 @@
-type: material
+type: resource
 name: Lich Missile Launcher Part
-description: Le Lance Missile de la Liche
+description: Lich's Missile Launcher
 cost: 2.5
-color: ffffff
+color: 00bdff

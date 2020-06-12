@@ -1,5 +1,5 @@
-type: material
+type: resource
 name: Eradicator Gun Part
-description: Le Canon de l'Eradicateur
+description: Eradicator's Gun
 cost: 2.5
-color: ffffff
+color: ff9300

@@ -1,9 +1,9 @@
-name: Usine à Erupteurs
-description: Fabrique des Erupteurs
+name: Eruptor Factory
+description: Makes Eruptor
 type: UnitFactory
 unitType: eruptor
 size: 3
-produceTime: 500
+produceTime: 200
 consumes: {
   power: 1.0
   items: {
@@ -14,17 +14,19 @@ consumes: {
       pyratite/10
       coal/5
       eruptor-gun-part/2
+      basic-circuit-board/30
 
     ]
   }
 }
 category: units
-research: eruptor-factory
+research: fortress-factory
 requirements: [
   silicon/110
   titanium/250
   thorium/150
   surge-alloy/30
   plastanium/20
+  basic-circuit-board/30
 ]
 

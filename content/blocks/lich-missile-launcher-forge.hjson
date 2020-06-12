@@ -1,7 +1,7 @@
 type: GenericSmelter
-name: Usine de lance missile à Liche
-description: Fusionne des matériaux aimantés permettant de ciblé l'ennemi pendant la trajectoire du missile
-liquidCapacity: 50
+name: Lich's Missile Launcher Factory
+description: Merges aiming materials to make a missile launcher that shoot homing missile
+liquidCapacity: 1000
 size: 3
 hasPower: true
 hasLiquids: true
@@ -17,6 +17,7 @@ consumes: {
       thorium/3
       plastanium/10
       scrap/5
+      advanced-circuit-board/3
     ]
   }
   liquid: {
@@ -31,9 +32,10 @@ requirements: [
   copper/50
   lead/30
   surge-alloy/20
+  advanced-circuit-board/30
 ]
 category: crafting
-research: lich-missile-launcher-forge
+research: eruptor-gun-forge
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: lich-missile-launcher-part/1

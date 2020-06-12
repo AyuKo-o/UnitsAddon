@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Iron Furnace
+description: Smelt Raw Iron Ore with Coal
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 100
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.1
+  items: {
+    items: [
+      iron-ore/2
+      coal/1
+    ]
+  }
+}
+requirements: [
+  silicon/20
+  copper/30
+  lead/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: iron/2

@@ -1,0 +1,5 @@
+type: material
+name: "Conductive Iron"
+description: An electrical material used to make circuit boards
+cost: 2.5
+color: f3906b

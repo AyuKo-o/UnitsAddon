@@ -1,7 +1,7 @@
 type: GenericSmelter
-name: Usine d'arme à Soldat du Chaos
-description: Fusionne l'alliage superchargé à d'autre matériaux pour faire une arme puissante tirant des balles surchargée
-liquidCapacity: 50
+name: Chaos Array's gun Factory
+description: Merges surge alloy with other materials to make the chaos array weapon
+liquidCapacity: 1000
 size: 3
 hasPower: true
 hasLiquids: true
@@ -9,7 +9,7 @@ hasItems: true
 craftTime: 320
 updateEffect: smeltsmoke
 consumes: {
-  power: 0.7
+  power: 3.1
   items: {
     items: [
       silicon/2
@@ -17,6 +17,7 @@ consumes: {
       thorium/1
       surge-alloy/5
       coal/5
+      advanced-circuit-board/5
     ]
   }
   liquid: {
@@ -30,9 +31,10 @@ requirements: [
   silicon/60
   copper/50
   surge-alloy/10
+  advanced-circuit-board/30
 ]
 category: crafting
-research: chaos-gun-forge
+research: eruptor-gun-forge
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: chaos-gun-part/1

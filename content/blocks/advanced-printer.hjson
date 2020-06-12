@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: "[red]Advanced [white]Printer"
+description: "An Advanced Printer that can make [red]Advanced [orange]Circuit Board"
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 200
+updateEffect: smeltsmoke
+consumes: {
+  power: 3.0
+  items: {
+    items: [
+      conductive-iron/4
+      silicon/6
+      basic-circuit-board/2
+      plastanium/3
+      surge-alloy/2
+    ]
+  }
+}
+requirements: [
+  copper/200
+  lead/110
+  graphite/70
+  silicon/50
+  plastanium/40
+  surge-alloy/50
+  basic-circuit-board/10
+]
+category: crafting
+research: basic-printer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: advanced-circuit-board/1

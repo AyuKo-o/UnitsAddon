@@ -1,5 +1,5 @@
-name: Usine à Eradicateur
-description: Fabrique des Eradicateurs
+name: Eradicator Factory
+description: Makes Eradicator
 type: UnitFactory
 unitType: eradicator
 size: 4
@@ -13,17 +13,20 @@ consumes: {
       surge-alloy/50
       eradicator-gun-part/2
       thorium/30
+      advanced-circuit-board-mk2/20
+      advanced-circuit-board/10
 
     ]
   }
 }
 category: units
-research: eradicator-factory
+research: chaos-array-factory
 requirements: [
   silicon/110
   titanium/250
   thorium/150
   surge-alloy/30
   plastanium/300
+  advanced-circuit-board-mk2/50
 ]
 

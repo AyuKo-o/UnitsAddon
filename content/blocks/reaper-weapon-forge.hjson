@@ -1,7 +1,7 @@
 type: GenericSmelter
-name: Usine d'arme à Faucheur
-description: Fusionne du thorium et de l'alliage superchargé pour faire des balles tirant à la même vitesse qu'un Spectre sur une longue distance
-liquidCapacity: 50
+name: Reaper's Weapon Factory
+description: Merges thorium and surge alloy to make a weapon that shoot Spectre Bullet but in a short distance
+liquidCapacity: 1000
 size: 3
 hasPower: true
 hasLiquids: true
@@ -17,6 +17,7 @@ consumes: {
       thorium/10
       surge-alloy/10
       lead/3
+      advanced-circuit-board-mk2/5
     ]
   }
   liquid: {
@@ -31,9 +32,10 @@ requirements: [
   copper/50
   surge-alloy/100
   lead/60
+  advanced-circuit-board-mk2/60
 ]
 category: crafting
-research: reaper-weapon-forge
+research: lich-missile-launcher-forge
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: reaper-weapon-part/1

@@ -1,0 +1,5 @@
+type: material
+name: "[green]Basic [yellow]Circuit Board"
+description: A Circuit used to make basic units and factory
+cost: 2.5
+color: 34C924

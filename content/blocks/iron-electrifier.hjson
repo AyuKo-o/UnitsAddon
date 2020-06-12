@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Iron Electrifier
+description: Combines Iron and Surge Powder to make Conductive Iron
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 100
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.1
+  items: {
+    items: [
+      iron/2
+      surge-powder/4
+    ]
+  }
+}
+requirements: [
+  silicon/20
+  copper/30
+  lead/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: conductive-iron/2

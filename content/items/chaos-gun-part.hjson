@@ -1,5 +1,5 @@
-type: material
+type: resource
 name: Chaos Gun Part
-description: Le Cannon du Soldat du Chaos
+description: Chaos Array's Gun
 cost: 2.5
-color: ffffff
+color: fff000

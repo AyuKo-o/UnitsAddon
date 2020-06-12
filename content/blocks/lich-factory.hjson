@@ -1,11 +1,11 @@
-name: Usine à Liches
-description: Fabrique des Liches
+name: Lich Factory
+description: Makes Lich
 type: UnitFactory
 unitType: lich
 size: 3
 produceTime: 500
 consumes: {
-  power: 1.0
+  power: 3.0
   items: {
     items: [
       silicon/100
@@ -13,17 +13,18 @@ consumes: {
       surge-alloy/50
       lich-missile-launcher-part/2
       coal/5
-
+      advanced-circuit-board/10
     ]
   }
 }
 category: units
-research: lich-factory
+research: revenant-factory
 requirements: [
   silicon/110
   titanium/250
   thorium/150
   surge-alloy/30
   plastanium/160
+  advanced-circuit-board/50
 ]
 

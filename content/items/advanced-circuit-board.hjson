@@ -1,0 +1,5 @@
+type: material
+name: "[red]Advanced [orange]Circuit Board"
+description: A Circuit used to make advanced units and factory
+cost: 2.5
+color: ff0000

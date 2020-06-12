@@ -1,5 +1,5 @@
-type: material
+type: resource
 name: Reaper Weapon Part
-description: L'Arme du Faucheur
+description: Reaper's Weapon
 cost: 2.5
-color: ffffff
+color: ec00ff

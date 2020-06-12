@@ -1,5 +1,5 @@
-name: Usine à Soldat du Chaos
-description: Fabrique des Soldats du Chaos 
+name: Chaos Array Factory
+description: Makes Chaos Array
 type: UnitFactory
 unitType: chaos-array
 size: 3
@@ -13,16 +13,18 @@ consumes: {
       surge-alloy/50
       chaos-gun-part/2
       thorium/20
+      advanced-circuit-board/20
     ]
   }
 }
 category: units
-research: chaos-array-factory
+research: eruptor-factory
 requirements: [
   silicon/110
   titanium/250
   thorium/150
   surge-alloy/30
   plastanium/100
+  advanced-circuit-board/50
 ]
 
