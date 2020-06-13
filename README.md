@@ -13,4 +13,4 @@ Original Language : French //
    /Factory : Basic Printer , Advanced Printer , Advanced Printer MKII , Iron Furnace and Iron Electrifier ! 
    // New items ! Iron Ore , Iron , Conductive Iron , Surge Powder , Basic Circuit Board , Advanced Circuit Board and Advanced Circuit Board MKII !
    /Walls : Iron Wall and Large Iron Wall ! //
-1.1 Fix : Lich Factory Sprite , The cost of Chaos Arrays and Eruptors //
+1.1 Fix : Lich Factory Sprite , The cost of Chaos Arrays and Eruptors , Fixed the Advanced Printer Mk2//
