@@ -12,7 +12,7 @@ consumes: {
   items: {
     items: [
       iron/1
-      surge-powder/2
+      surge-powder/1
     ]
   }
 }
