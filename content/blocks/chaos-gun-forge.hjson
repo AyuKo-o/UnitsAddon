@@ -17,7 +17,7 @@ consumes: {
       thorium/1
       surge-alloy/5
       coal/5
-      advanced-circuit-board/5
+      advanced-circuit-board/1
     ]
   }
   liquid: {
