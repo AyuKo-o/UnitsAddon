@@ -4,7 +4,7 @@ description: Compress Surge to make Surge Powder
 size: 3
 hasPower: true
 hasItems: true
-craftTime: 500
+craftTime: 190
 updateEffect: smeltsmoke
 consumes: {
   power: 3.0
