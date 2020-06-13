@@ -17,7 +17,7 @@ consumes: {
       thorium/1
       metaglass/10
       plastanium/5
-      basic-circuit-board/5
+      basic-circuit-board/1
     ]
   }
   liquid: {
