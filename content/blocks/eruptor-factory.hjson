@@ -3,7 +3,7 @@ description: Makes Eruptor
 type: UnitFactory
 unitType: eruptor
 size: 3
-produceTime: 200
+produceTime: 2000
 consumes: {
   power: 1.0
   items: {

@@ -3,7 +3,7 @@ description: Makes Eradicator
 type: UnitFactory
 unitType: eradicator
 size: 4
-produceTime: 500
+produceTime: 3000
 consumes: {
   power: 1.0
   items: {

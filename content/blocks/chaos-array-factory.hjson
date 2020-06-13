@@ -3,7 +3,7 @@ description: Makes Chaos Array
 type: UnitFactory
 unitType: chaos-array
 size: 3
-produceTime: 500
+produceTime: 2500
 consumes: {
   power: 1.0
   items: {

@@ -3,7 +3,7 @@ description: Makes Lich
 type: UnitFactory
 unitType: lich
 size: 3
-produceTime: 500
+produceTime: 2500
 consumes: {
   power: 3.0
   items: {

@@ -4,7 +4,7 @@ description: "A incredible Printer that can make [purple]Advanced [pink]Circuit 
 size: 3
 hasPower: true
 hasItems: true
-craftTime: 400
+craftTime: 200
 updateEffect: smeltsmoke
 consumes: {
   power: 4.0

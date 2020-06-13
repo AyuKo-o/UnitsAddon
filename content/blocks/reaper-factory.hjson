@@ -3,7 +3,7 @@ description: Makes Reaper
 type: UnitFactory
 unitType: reaper
 size: 4
-produceTime: 700
+produceTime: 3000
 consumes: {
   power: 1.0
   items: {

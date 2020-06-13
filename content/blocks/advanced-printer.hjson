@@ -4,7 +4,7 @@ description: "An Advanced Printer that can make [red]Advanced [orange]Circuit Bo
 size: 3
 hasPower: true
 hasItems: true
-craftTime: 200
+craftTime: 150
 updateEffect: smeltsmoke
 consumes: {
   power: 3.0
