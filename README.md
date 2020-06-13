@@ -14,3 +14,4 @@ Original Language : French //
    // New items ! Iron Ore , Iron , Conductive Iron , Surge Powder , Basic Circuit Board , Advanced Circuit Board and Advanced Circuit Board MKII !
    /Walls : Iron Wall and Large Iron Wall ! //
 1.1 Fix : Lich Factory Sprite , The cost of Chaos Arrays and Eruptors , Fixed the Advanced Printer Mk2//
+1.2 Fix : Reduced cost for every units , increase the speed of advanced printer mk2 , longer crafting time for units
