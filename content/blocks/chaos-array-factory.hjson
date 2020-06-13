@@ -9,10 +9,10 @@ consumes: {
   items: {
     items: [
       silicon/100
-      titanium/200
-      surge-alloy/50
+      titanium/100
+      surge-alloy/20
       chaos-gun-part/2
-      thorium/20
+      thorium/50
       advanced-circuit-board/20
     ]
   }

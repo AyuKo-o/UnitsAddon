@@ -8,9 +8,8 @@ consumes: {
   power: 1.0
   items: {
     items: [
-      silicon/100
-      titanium/200
-      surge-alloy/50
+      silicon/50
+      titanium/100
       pyratite/10
       coal/5
       eruptor-gun-part/2
