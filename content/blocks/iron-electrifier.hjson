@@ -20,6 +20,8 @@ requirements: [
   silicon/20
   copper/30
   lead/20
+  iron/50
+  surge-alloy/10
 ]
 category: crafting
 research: kiln

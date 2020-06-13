@@ -10,11 +10,11 @@ consumes: {
   power: 4.0
   items: {
     items: [
-      conductive-iron/10
-      silicon/30
-      plastanium/20
-      surge-alloy/10
-      basic-circuit-board/10
+      conductive-iron/6
+      silicon/4
+      plastanium/2
+      surge-alloy/3
+      basic-circuit-board/5
       advanced-circuit-board/3
     ]
   }
