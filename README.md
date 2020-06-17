@@ -1,17 +1,28 @@
 # Units Addon
-Made by AyuKo_o // 
-Original Language : French //
- Made for PVP // 
- Bundle : FR // 
- Language of the Mod : English //
-  # This version of the mod adds new blocks 
-  /Floor : Basalt , Blue Ice , And Slag (liquid version) //
-   Basalt : Decorative Block 
-   Blue Ice : Decorative Block , Increase speed when you walk on it 
-   Slag : Decorative Block , Slag can be extracted with pump 
-   Iron Ore : You can extract iron ore with drills //
-   /Factory : Basic Printer , Advanced Printer , Advanced Printer MKII , Iron Furnace and Iron Electrifier ! 
-   // New items ! Iron Ore , Iron , Conductive Iron , Surge Powder , Basic Circuit Board , Advanced Circuit Board and Advanced Circuit Board MKII !
-   /Walls : Iron Wall and Large Iron Wall ! //
-1.1 Fix : Lich Factory Sprite , The cost of Chaos Arrays and Eruptors , Fixed the Advanced Printer Mk2//
-1.2 Fix : Reduced cost for every units , increase the speed of advanced printer mk2 , longer crafting time for units
+-Made by AyuKo_o   
+-Original Language : French 
+-Made for PVP  
+-Bundle: FR
+-Languageof the mod : English 
+  # V1.5 release
+  New blocks !
+  -New units factory
+  -Exploder Factory
+  -Destroyer Factory
+  -Freezer Factory
+  -Water Splasher Factory
+  -Bomber Plane Factory
+   New Units !
+  -Exploder
+  A ground unit that shoot explosive missile
+  -Destroyer
+  A strong unit that shoot burning bullets
+  -Water Splasher
+  An unit that shoot a lot of water on enemies and push them back
+  -Dummy 
+  An unit made for testing turrets and other units
+  -Bomber Plane
+  A flying unit that shoot explosive bomb
+  
+  
+  
