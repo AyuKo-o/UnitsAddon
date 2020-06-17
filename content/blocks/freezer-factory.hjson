@@ -1,0 +1,28 @@
+name: Freezer Factory
+description: Makes Freezer
+type: UnitFactory
+unitType: freezer
+size: 3
+produceTime: 1700
+consumes: {
+  power: 2.0
+  items: {
+    items: [
+      silicon/20
+      thorium/10
+      titanium/5
+      metaglass/10
+      basic-circuit-board/2
+    ]
+  }
+}
+category: units
+research: exploder-factory
+requirements: [
+  silicon/110
+  conductive-iron/30
+  titanium/120
+  thorium/60
+  basic-circuit-board/3
+]
+

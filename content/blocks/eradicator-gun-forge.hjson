@@ -17,7 +17,7 @@ consumes: {
       thorium/10
       lead/10
       surge-alloy/2
-      advanced-circuit-board-mk2/1
+      advanced-circuit-board-mk2/10
     ]
   }
   liquid: {

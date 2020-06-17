@@ -1,0 +1,16 @@
+type: groundUnit
+name: Dummy
+description: This is a test unit , used to test units and tower weapons
+speed: 0.0001
+mass: 460
+flying: false
+targetAir : false
+health: 500000
+range: 0
+weapon: {
+  name: dummy-arm
+  length: 1.7
+  reload: 10000
+  alternate: false
+  bullet: waterShot
+}

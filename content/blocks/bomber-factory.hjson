@@ -1,0 +1,30 @@
+name: Bomber Plane Factory
+description: Makes Bomber Planes
+type: UnitFactory
+unitType: bomber-plane
+size: 3
+produceTime: 1900
+consumes: {
+  power: 3.0
+  items: {
+    items: [
+      silicon/100
+      titanium/200
+      surge-alloy/50
+      coal/5
+      metaglass/10
+      basic-circuit-board/10
+    ]
+  }
+}
+category: units
+research: revenant-factory
+requirements: [
+  silicon/110
+  titanium/250
+  thorium/150
+  surge-alloy/30
+  metaglass/160
+  basic-circuit-board/50
+]
+

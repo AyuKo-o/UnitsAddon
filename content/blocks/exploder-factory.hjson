@@ -1,0 +1,31 @@
+name: Exploder Factory
+description: Makes Exploder
+type: UnitFactory
+unitType: exploder
+size: 3
+produceTime: 2000
+consumes: {
+  power: 1.0
+  items: {
+    items: [
+      silicon/80
+      titanium/60
+      surge-alloy/10
+      thorium/50
+      plastanium/10
+      blast-compound/10
+      basic-circuit-board/20
+    ]
+  }
+}
+category: units
+research: fortress-factory
+requirements: [
+  silicon/110
+  titanium/250
+  thorium/150
+  surge-alloy/30
+  plastanium/100
+  basic-circuit-board/50
+]
+

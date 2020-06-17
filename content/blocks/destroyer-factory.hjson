@@ -1,0 +1,30 @@
+name: Destroyer Factory
+description: Makes Destroyer
+type: UnitFactory
+unitType: destroyer
+size: 3
+produceTime: 2200
+consumes: {
+  power: 2.0
+  items: {
+    items: [
+      silicon/80
+      titanium/60
+      thorium/50
+      plastanium/10
+      lead/30
+      basic-circuit-board/6
+    ]
+  }
+}
+category: units
+research: exploder-factory
+requirements: [
+  silicon/110
+  titanium/250
+  thorium/150
+  surge-alloy/30
+  lead/130
+  basic-circuit-board/50
+]
+

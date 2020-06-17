@@ -1,0 +1,51 @@
+type: groundUnit
+name: Exploder
+description: Shoot deadly explosives but shoots very slowly
+speed: 0.03
+mass: 5
+flying: false
+targetAir : true
+targetGround : true
+engineOffset: 10.0
+weaponOffsetY: 0.0
+engineSize: 0.0
+health: 1050
+range: 5
+weapon: {
+  name: rocket-launcher
+  length: 3.0
+  width: 8.0
+  reload: 180
+  alternate: true
+   spacing: 2
+  shots: 4
+  recoil: 1.5
+  shotDelay: 0
+  shootSound : shootBig
+  ignoreRotation: true
+  bullet: {
+     type: BasicBulletType
+     speed: 3
+    lifetime: 70
+     damage: 40
+     bulletWidth: 10
+     bulletHeight: 10
+    frontColor: ffe333
+    backColor: fea424
+     shootEffect: shootSmallSmoke
+     smokeEffect: smoke
+     despawnEffect: hitBulletBig
+    hitEffect: blastExplosion
+    pierce: false
+    knockback: 1
+    bulletSprite: units-addon-explosive-bullet
+    inaccuracy: 10
+    incendAmount: 0
+    incendSpread: 10
+    incendChance: 4
+    collides: true
+    collidesTeam: false
+    splashDamage: 30
+    splashDamageRadius: 5
+    }
+}

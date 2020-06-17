@@ -13,13 +13,12 @@ consumes: {
       pyratite/10
       coal/5
       eruptor-gun-part/2
-      basic-circuit-board/30
-
+      basic-circuit-board/9
     ]
   }
 }
 category: units
-research: fortress-factory
+research: destroyer-factory
 requirements: [
   silicon/110
   titanium/250

@@ -1,0 +1,53 @@
+name: Freezer
+description: A unit like water splasher but it shoot cryo fluid
+type: groundUnit
+speed: 0.02
+mass: 8
+weaponOffsetY: 0.0
+weaponOffsetX: 10.5
+flying: false
+targetAir : false
+health: 1020
+immunities: [
+   freezing
+]
+weapon: {
+  name: freezer-splasher
+  length: 3.0
+  width: 7.0
+  reload: 70
+  alternate: true
+   spacing: 5
+  shots: 4
+  recoil: 1.5
+  shotDelay: 0.1
+  shootSound : shootBig
+  ignoreRotation: true
+  bullet: {
+     type: BasicBulletType
+     speed: 4
+    lifetime: 40
+     damage: 2
+     bulletWidth: 14
+     bulletHeight: 14
+    frontColor: 6affef
+    backColor: 5bfffd
+     shootEffect: shootSmallSmoke
+     smokeEffect: smoke
+     despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    pierce: false
+    knockback: 0
+    bulletSprite: units-addon-burning-bullet
+    inaccuracy: 5
+    collides: true
+    collidesTeam: false
+    fragBullets: 5
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: cryofluid
+        lifetime: 3
+        speed: 1
+        }
+    }
+}

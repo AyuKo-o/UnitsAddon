@@ -1,0 +1,17 @@
+type: groundUnit
+name: Water Splasher
+description: Flood the enemies and push them back
+speed: 0.06
+mass: 5
+flying: false
+targetAir : false
+health: 550
+range: 2
+weapon: {
+  name: water-splasher-splasher
+  length: 1.7
+  width: 5.5
+  reload: 5
+  alternate: false
+  bullet: waterShot
+}

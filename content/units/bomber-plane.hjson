@@ -1,0 +1,58 @@
+name: Bomber Plane
+description: A flying unit that shoot powerful bomb
+type: FlyingUnit
+speed: 0.3
+mass: 8
+flying: true
+targetAir : false
+health: 900
+engineOffset: 9.0
+range: 20
+engineSize: 2.5
+weapon: {
+  name: bomb-launcher
+  length: 0.0
+  width: 0.0
+  reload: 70
+  alternate: true
+   spacing: 0
+  shots: 3
+  recoil: 1.5
+  shotDelay: 1
+  shootSound : shootBig
+  ignoreRotation: true
+  bullet: {
+     type: BasicBulletType
+     speed: 2
+     lifetime: 40
+     damage: 30
+     bulletWidth: 15
+     bulletHeight: 16
+     frontColor: f0e587
+     backColor: d4c756
+     shootEffect: shootBigSmoke
+     smokeEffect: smoke
+     despawnEffect: hitBulletBig
+     hitEffect: hitBulletBig
+     pierce: false
+     knockback: 2
+     bulletSprite: units-addon-burning-bullet
+     inaccuracy: 5
+     collides: true
+     collidesTeam: false
+     fragBullets: 4
+     fragBullet: {
+         type: BasicBulletType
+         bulletSprite: units-addon-burning-bullet
+         bulletHeight: 10
+         bulletWidth: 9
+         frontColor: f6d6d6
+         backColor: f6bebe
+         lifetime: 9
+         speed: 1
+         damage: 20
+         splashDamage: 20
+         splashDamageRadius: 5
+        }
+    }
+}

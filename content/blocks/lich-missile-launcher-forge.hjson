@@ -17,7 +17,7 @@ consumes: {
       thorium/3
       plastanium/10
       scrap/5
-      advanced-circuit-board/2
+      advanced-circuit-board/3
     ]
   }
   liquid: {

@@ -1,0 +1,27 @@
+name: Water Splasher Factory
+description: Makes Water Splasher
+type: UnitFactory
+unitType: water-splasher
+size: 2
+produceTime: 1500
+consumes: {
+  power: 2.0
+  items: {
+    items: [
+      silicon/20
+      thorium/10
+      titanium/5
+      basic-circuit-board/1
+    ]
+  }
+}
+category: units
+research: fortress-factory
+requirements: [
+  silicon/110
+  conductive-iron/30
+  titanium/120
+  thorium/60
+  basic-circuit-board/3
+]
+
