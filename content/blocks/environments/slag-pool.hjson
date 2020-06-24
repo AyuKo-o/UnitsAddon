@@ -2,7 +2,7 @@ type: Floor
 name: Slag
 liquidDrop: slag
 speedMultiplier: 0.15
-variants: 3
+variants: 1
 isLiquid: true
 status: melting
 statusDuration: 180

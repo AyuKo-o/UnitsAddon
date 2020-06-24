@@ -1,0 +1,52 @@
+name: Eradicator Monster
+description: Looks like an Eradicator but way more powerful and more stronger than Eradicator
+type: groundUnit
+speed: 0.04
+mass: 15
+drag: 0.1
+weaponOffsetY: 0.0
+weaponOffsetX: 10.5
+flying: false
+targetAir : true
+health: 15000
+hitsize: 11
+hitsizeTile: 6
+immunities: [
+   tarred
+   boss
+]
+weapon: {
+  name: ruined-eradication
+  length: 3.0
+  width: 18.0
+  reload: 70
+  alternate: true
+   spacing: 2
+  shots: 8
+  recoil: 1.5
+  shotDelay: 5
+  shootSound : shootBig
+  ignoreRotation: true
+  bullet: {
+     type: BasicBulletType
+     speed: 4
+    lifetime: 70
+     damage: 50
+     bulletWidth: 21
+     bulletHeight: 26
+    frontColor: ffea83
+    backColor: ffe66d
+     shootEffect: shootBigSmoke
+     smokeEffect: smoke
+     despawnEffect: hitBulletBig
+    hitEffect: hitFlameSmall
+    pierce: false
+    knockback: 1
+    bulletSprite: units-addon-burning-bullet
+    inaccuracy: 10
+    status: corroded
+    statusDuration: 200
+    collides: true
+    collidesTeam: false
+    }
+}

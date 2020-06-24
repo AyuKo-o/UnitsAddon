@@ -1,4 +1,6 @@
 type: floor
 name: Basalt
 variants: 3
+status: burning
+statusDuration: 40
 playerUnmineable: true

@@ -1,7 +1,8 @@
-type: floor
+type: Floor
 name: Blue Ice
 variants: 3
 playerUnmineable: true
 liquidDrop: water
-speedMultiplier: 1.5
+speedMultiplier: 0.40
 isLiquid: false
+dragMultiplier: 0.25

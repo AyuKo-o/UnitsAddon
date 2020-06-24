@@ -1,0 +1,72 @@
+name: Extermination
+description: A mech used to exterminate every units
+speed: 0.4
+mineSpeed: 2
+mass: 5
+drag: 0.09
+drillPower: 5
+buildPower: 2
+engineColor: "E87878"
+flying: true
+health: 1300
+itemCapacity: 100
+weaponOffsetX: 4
+weapon: {
+  name: exterminator
+  length: 1.5
+  width: 1.5
+  reload: 30
+  alternate: true
+  bullet: {
+     type: BasicBulletType
+     speed: 2
+     lifetime: 90
+     damage: 30
+     bulletWidth: 15
+     bulletHeight: 16
+     frontColor: f0e587
+     backColor: d4c756
+     shootEffect: shootBigSmoke
+     smokeEffect: smoke
+     despawnEffect: hitBulletBig
+     hitEffect: hitBulletBig
+     pierce: false
+     knockback: 2
+     bulletSprite: units-addon-burning-bullet
+     inaccuracy: 5
+     collides: true
+     collidesTeam: false
+     splashDamage: 20
+     splashDamageRadius: 10
+     fragBullets: 4
+     fragBullet: {
+         type: BasicBulletType
+         bulletSprite: units-addon-burning-bullet
+         bulletHeight: 10
+         bulletWidth: 9
+         frontColor: f6d6d6
+         backColor: f6bebe
+         lifetime: 15
+         speed: 1.5
+         damage: 20
+         splashDamage: 20
+         splashDamageRadius: 5
+         fragBullets: 8
+         fragBullet: {
+             type: BasicBulletType
+             bulletSprite: units-addon-burning-bullet
+             bulletHeight: 7
+             bulletWidth: 6
+             frontColor:
+             backColor:
+             lifetime: 10
+             speed: 1
+             damage: 15
+             splashDamage: 15
+             splashDamageRadius: 5
+            }
+        }
+    }
+}
+
+

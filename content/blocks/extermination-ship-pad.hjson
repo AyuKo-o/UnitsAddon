@@ -1,0 +1,20 @@
+name: Extermination Ship Pad
+description: Transform into the Extermination Ship
+type: MechPad
+mech: extermination
+size: 2
+consumes: {
+  power: 0.7
+}
+category: upgrade
+research: glaive-ship-pad
+requirements: [
+  copper/170
+  lead/180
+  silicon/140
+  graphite/150
+  plastanium/60
+  surge-alloy/10
+  advanced-circuit-board/10
+  basic-circuit-board/20
+]

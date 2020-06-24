@@ -1,0 +1,30 @@
+name: Thorium Lancer Wall
+description : A thorium wall with a lancer above it, a little bit better than large thorium wall
+range: 155.04
+chargeTime: 50
+chargeMaxDelay: 30
+chargeEffect: 7
+shootType: lancerLaser
+recoilAmount: 2
+reload: 90
+cooldown: 0.03
+powerUse: 2.5
+shootShake: 2
+shootEffect: lancerLaserShoot
+smokeEffect: lancerLaserShootSmoke
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: Color.purple
+size: 2
+health: 3400
+targetAir: false
+targetGround: true
+shootSound: laser
+category: turret 
+research: thorium-wall-large
+requirements: [
+  copper/25
+  lead/50
+  silicon/44
+  thorium/26
+]
