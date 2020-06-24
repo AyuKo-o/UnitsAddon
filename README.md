@@ -4,25 +4,15 @@
 - Made for PVP  
 - Bundle: FR
 - Languageof the mod : English 
-# V1.5 release
-New blocks !
-- New units factory
-- Exploder Factory
-- Destroyer Factory
-- Freezer Factory
-- Water Splasher Factory
-- Bomber Plane Factory
-New Units !
-- Exploder
-A ground unit that shoot explosive missile
-- Destroyer
-A strong unit that shoot burning bullets
-- Water Splasher
-An unit that shoot a lot of water on enemies and push them back
-- Dummy 
-An unit made for testing turrets and other units
-- Bomber Plane
-A flying unit that shoot explosive bomb
-  
-  
-  
+# V1.6 release
+This is a minor update
+- A new Ship : The exterminator
+A Ship that shoot deadly frag bullets and deal a lot of damage 
+- A new boss : Eradicator Monster
+A boss looks like the eradicator but more stronger and more powerful 
+- A new tower : The Thorium Lancer Wall
+It's a Thorium Wall , with a Lancer on it, a bit better than thorium wall
+- Changed the blue ice properties : You can slide on it now
+- Changed the "Slag" texture
+
+
